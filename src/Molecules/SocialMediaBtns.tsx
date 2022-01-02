@@ -1,23 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Icon } from "../Atoms/Icon";
+import { Icon } from "../Atoms/Icon/Icon";
 
 export const SocialMediaBtns: React.FC = () => {
   return (
-    <div
-      style={{
-        display: "flex",
-        width: "10rem",
-      }}
-    >
+    <div className="buttons-social-media">
+      <Link target="_blank" to="https://github.com/noamrubin22">
+        <Icon src={"github.png"} size="small" />
+      </Link>
+      <Link target="_blank" to="https://www.linkedin.com/in/noam-rubin">
+        <Icon src={"linked-in.png"} size="small" />
+      </Link>
       {/* <Link to="/"> */}
-      <Icon src={"/contact_01_small.png"} size="small" />
-      {/* </Link> */}
-      {/* <Link to="/"> */}
-      <Icon src={"/contact_01_small.png"} size="small" />
-      {/* </Link> */}
-      {/* <Link to="/"> */}
-      <Icon src={"/contact_01_small.png"} size="small" />
+      <Icon src={"email.png"} size="small" />
       {/* </Link> */}
     </div>
   );

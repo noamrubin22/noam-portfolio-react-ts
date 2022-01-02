@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Clock } from "../Molecules/Clock";
+import { Clock } from "../Molecules/Clock/Clock";
 import { MenuItem } from "../Molecules/MenuItem";
 import { SocialMediaBtns } from "../Molecules/SocialMediaBtns";
 import { StartBtn } from "../Molecules/StartBtn";

@@ -1,0 +1,24 @@
+// wordt gezien als een module
+// ipv stylesheet word het geimporteerd als object met de styles
+
+// BEM niet nodig omdat het under the hood alles specifieker maakt
+
+.small {
+  width: 2rem;
+  height: 2rem;
+}
+
+.middle {
+  width: 5rem;
+  height: 5rem;
+}
+
+.large {
+  width: 10rem;
+  height: 10rem;
+}
+
+.horizontal {
+  width: 1.5rem;
+  height: 1rem;
+}
