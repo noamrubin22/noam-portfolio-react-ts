@@ -21,7 +21,7 @@ export const Clock: React.FC = () => {
 
   return (
     <time className={styles.clock}>
-      <Icon src={"volume_01.png"} size="small" />
+      <Icon src={"volume_01.png"} size="small" alt="Volume" />
       <Title title={time} size="small" />
     </time>
   );

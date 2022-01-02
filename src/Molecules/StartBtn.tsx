@@ -25,7 +25,7 @@ export const StartBtn: React.FC<StartBtnProps> = ({ setIsOpen, isOpen }) => {
       style={{ display: "flex", alignContent: "center", alignItems: "center" }}
       onClick={handleClick}
     >
-      <Icon src={"start-logo.png"} size="horizontal" />
+      <Icon src={"start-logo.png"} size="horizontal" alt="Start button" />
       <Title title="Start" size="small" />
     </button>
   );

@@ -1,0 +1,20 @@
+.social_media__sidebar {
+  height: 2.5rem;
+  margin: 2px;
+  align-self: center;
+  border: outset 2px;
+}
+
+.social_media__buttons {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.icon_small {
+  width: 2.25rem;
+  margin-top: 0.5rem;
+  &:hover {
+    background-color: blue;
+  }
+}

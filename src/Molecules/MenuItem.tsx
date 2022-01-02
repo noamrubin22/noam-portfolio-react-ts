@@ -15,7 +15,7 @@ export const MenuItem: React.FC<MenuItemProps> = ({
 }) => {
   return (
     <div style={{ display: "flex", backgroundColor: "gray" }}>
-      <Icon src={src} size={size} />
+      <Icon src={src} size={size} alt="" />
       <Title title={title} size={size} />
     </div>
   );

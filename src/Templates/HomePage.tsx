@@ -1,6 +1,6 @@
 import React from "react";
 import { Monitor } from "../Organisms/Monitor";
-import { StartBar } from "../Organisms/StartBar";
+import { StartBar } from "../Organisms/StartBar/StartBar";
 
 interface HomePageProps {}
 
