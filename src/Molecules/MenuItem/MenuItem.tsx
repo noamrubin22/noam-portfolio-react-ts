@@ -1,11 +1,12 @@
 import React from "react";
-import { Icon } from "../Atoms/Icon/Icon";
-import { Title } from "../Atoms/Title";
+import { Icon } from "../../Atoms/Icon/Icon";
+import { Title } from "../../Atoms/Title/Title";
+import styles from "./menuitem.module.scss";
 
 interface MenuItemProps {
   src: string;
   title: string;
-  size: "small" | "middle";
+  size?: "small" | "middle";
 }
 
 export const MenuItem: React.FC<MenuItemProps> = ({
@@ -14,7 +15,7 @@ export const MenuItem: React.FC<MenuItemProps> = ({
   size = "middle",
 }) => {
   return (
-    <div style={{ display: "flex", backgroundColor: "gray" }}>
+    <div className={styles.menu__item}>
       <Icon src={src} size={size} alt="" />
       <Title title={title} size={size} />
     </div>

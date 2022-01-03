@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Icon } from "../../Atoms/Icon/Icon";
-import { Title } from "../../Atoms/Title";
+import { Title } from "../../Atoms/Title/Title";
 import styles from "./clock.module.scss";
 
 export const Clock: React.FC = () => {

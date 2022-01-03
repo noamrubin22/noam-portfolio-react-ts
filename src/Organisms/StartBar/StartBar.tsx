@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Clock } from "../../Molecules/Clock/Clock";
 import { SocialMediaBtns } from "../../Molecules/SocialMediaBtns/SocialMediaBtns";
-import { StartBtn } from "../../Molecules/StartBtn";
+import { StartBtn } from "../../Molecules/StartBtn/StartBtn";
 import styles from "./startbar.module.scss";
 
 export const StartBar: React.FC = () => {

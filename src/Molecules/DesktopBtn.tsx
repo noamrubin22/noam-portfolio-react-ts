@@ -1,6 +1,6 @@
 import React from "react";
 import { Icon } from "../Atoms/Icon/Icon";
-import { Title } from "../Atoms/Title";
+import { Title } from "../Atoms/Title/Title";
 
 interface DesktopBtnProps {
   src: string;
