@@ -15,14 +15,6 @@ export const StartBtn: React.FC<StartBtnProps> = ({ setIsOpen, isOpen }) => {
     console.log(isOpen);
   };
 
-  useEffect(() => {
-    // const body = document.getElementById("body");
-    // body?.addEventListener("click", () => {
-    //   setIsOpen(false);
-    //   console.log("startbtn should close");
-    // });
-  });
-
   return (
     <button className={styles.start__button} onClick={handleClick}>
       {isOpen && <StartMenu />}

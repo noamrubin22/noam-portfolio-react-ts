@@ -7,5 +7,22 @@
   width: 15%;
   position: absolute;
   bottom: 3.5rem;
+  left: 0rem;
   z-index: 99999;
+  display: flex;
+}
+
+.start__menu_side {
+  background: #85888f;
+  width: 14%;
+}
+
+.start__menu_items {
+  padding: 0;
+  width: 100%;
+}
+
+#windows_95 {
+  transform: rotate(-90deg);
+  margin-top: 2rem;
 }

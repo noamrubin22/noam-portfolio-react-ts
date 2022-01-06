@@ -16,7 +16,7 @@ export const MenuItem: React.FC<MenuItemProps> = ({
 }) => {
   return (
     <div className={styles.menu__item}>
-      <Icon src={src} size={size} alt="" />
+      <Icon src={src} size={"middle"} alt={title} />
       <Title title={title} size={size} />
     </div>
   );

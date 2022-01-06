@@ -7,4 +7,13 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding: 0.3rem;
+}
+
+.menu__item:hover {
+  background-color: blue;
+}
+
+.menu__item_divider {
+  border-top: 2px solid #deebf3;
 }
