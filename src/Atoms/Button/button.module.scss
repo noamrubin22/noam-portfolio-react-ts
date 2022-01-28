@@ -1,0 +1,45 @@
+button {
+  //   border: none;
+}
+
+.container {
+  height: 60%;
+  display: block;
+  float: right;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+.exit {
+  background: #bfbfbf;
+  height: 100%;
+  width: 1rem;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+  color: black;
+}
+
+.minimize {
+  background: #bfbfbf;
+  height: 100%;
+  width: 1rem;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+  color: black;
+}
+
+.maximize {
+  border-bottom: 1px solid black;
+  border-top: 3px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  height: 51%;
+  width: 78%;
+  display: block;
+  margin: auto;
+  margin-top: 1.2px;
+}

@@ -8,6 +8,7 @@ interface MenuItemProps {
   title: string;
   size?: "small" | "middle";
   setSubMenuIsOpen?: (subMenuIsOpen: boolean) => void;
+  onClick?: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 export const MenuItem: React.FC<MenuItemProps> = ({
